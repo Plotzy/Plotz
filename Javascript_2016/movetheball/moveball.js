@@ -7,6 +7,6 @@ function initAll()
 {
 	
 	myBallObj=document.getElementById("ball"); //Get the object
-	myBallObj.style.top = "200"; //Set the starting point 
-	myBallObj.style.left = "300";
+	myBallObj.style.top = "200px"; //Set the starting point 
+	myBallObj.style.left = "300px";
 }
