@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>shirt Order Form - Jonathan Plotz </title>
+</head>
+
+
+<body>
+<form action="http://tools.ridgewater.net/scripts/tshirt/mail.php"  method="post" name="frmOrder" id="frmOrder">
+  <p>
+    <label>
+      <input type="radio" name="radSize" value="XXXL" id="radSizeXXXL">
+      XXXL</label>
+    <br>
+    <label>
+      <input type="radio" name="radSize" value="XXL" id="radSizeXXL">
+      XXL</label>
+    <br>
+    <label>
+      <input type="radio" name="radSize" value="XL" id="radSizeXL" checked="checked">
+      XL</label>
+    <br>
+    <label>
+      <input type="radio" name="radSize" value="L" id="radSizeL">
+      L</label>
+    <br>
+    <label>
+      <input type="radio" name="radSize" value="M" id="radSizeM">
+      M</label>
+    <br>
+    <label>
+      <input type="radio" name="radSize" value="S" id="radSizeS">
+      S</label>
+    <br>
+  </p>
+<p>
+    <label>
+      <input type="radio" name="radShirtColor" value="White" id="radShirtColorWhite">
+      Cream White</label>
+    <br>
+    <label>
+      <input type="radio" name="radShirtColor" value="Black" id="radShirtColorBlack" checked="checked">
+      Onyx Black</label>
+    <br>
+    <label>
+      <input type="radio" name="radShirtColor" value="Red" id="radShirtColorRed">
+      Brick Red</label>
+    <br>
+    <label>
+      <input type="radio" name="radShirtColor" value="Green" id="radShirtColorGreen">
+      Mango Green </label>
+    <br>
+    <label>
+      <input type="radio" name="radShirtColor" value="Blue" id="radShirtColorBlue">
+      Ocean Blue </label>
+    <br>
+    <br />
+    <p>
+    <label>
+      <input type="radio" name="radTextColor" value="White" id="radTextColorWhite" checked="checked">
+      Cream White</label>
+    <br>
+    <label>
+      <input type="radio" name="radTextColor" value="Black" id="radTextColorBlack">
+      Onyx Black</label>
+    <br>
+    <label>
+      <input type="radio" name="radTextColor" value="Red" id="radTextColorRed">
+      Brick Red</label>
+    <br>
+    <label>
+      <input type="radio" name="radTextColor" value="Green" id="radTextColorGreen">
+      Mango Green </label>
+    <br>
+    <label>
+      <input type="radio" name="radTextColor" value="Blue" id="radTextColorBlue">
+      Ocean Blue </label>
+    <br>
+  </p>
+  </p>
+  
+  <p> 
+  <input name="chkGiftWrap" type="checkbox" id="chkGiftWrap" value="chkGiftWrap">
+  <label for="chkGiftWrap"> Gift Wrapping label </label>
+  <br />
+  <input name="chkExpedited" type="checkbox" id="chkExpedited" value="chkExpedited">
+  <label for="chkExpedited"> Expedited Shipping </label>
+  </p>
+  <p>
+  <input name="txtPrint" type="text" id="txtPrint" size="30">
+  <label for="txtPrint">Printing on Shirt:</label>
+  <br /> 
+  </p>
+   <p>
+  <input name="txtFullName" type="text" id="txtFullName" size="30">
+  <label for="txtFullName">Your full name</label>
+  <br /> 
+  </p>
+  <p>
+  <input name="txtEmail" type="text" id="txtEmail" size="30">
+  <label for="txtEmail">Email address we can contact you at.</label>
+  <br /> 
+  </p>
+  <p>
+  <input name="txtPhone" type="text" id="txtPhone" size="30">
+  <label for="txtPhone">Your phone number we can contact you at. </label>
+  </p>
+   <p>Additional Comments:<br /> 
+     <label for="txtComments">:</label>
+     <textarea name="txtComments" cols="70" rows="10" id="txtComments"></textarea>
+   </p>
+   <p>
+     <input type="submit" name="btnSubmit" id="btnSubmit" value="Send">
+   </p>
+</form>
+Version 1.00.00
+</body>
+</html>

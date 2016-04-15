@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.oddRow     { background-color: #99CCFF; }
+.evenRow    { background-color: #99FF99; }
+.pickedCell { background-color: #FF6666; }

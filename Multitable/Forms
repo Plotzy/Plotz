@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Multiplication Table - Jonathan Plotz</title>
+<link rel="stylesheet" type="text/css" href="multtable.css">
+<script src="multtable.js" type="application/javascript"> </script>
+</head>
+
+<body>
+<h1> Multipication Table</h1>
+<div id = "message">Pick a square</div>
+<br />
+<div id ="inlineTable">Table will go here...</div>
+
+
+
+
+
+
+
+
+
+<p>
+Version 1.00.00<br />
+</p>
+</body>
+</html>
