@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsEdit" value="name:ID;datatype:int,name:firstName;datatype:string,name:lastName;datatype:string,name:addrLine1;datatype:string,name:addrLine2;datatype:string,name:city;datatype:string,name:state;datatype:string,name:country;datatype:string,name:homePhone;datatype:string,name:mobilePhone;datatype:string,name:email;datatype:string" />
+</info>

@@ -1,0 +1,48 @@
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: tstFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 64
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: txtPhone in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 65
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Use of undefined constant price - assumed 'price' in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 74
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: txtComments in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 76
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: txtFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 101
+[01-Oct-2016 09:53:17 America/Chicago] PHP Notice:  Undefined variable: txtFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 102
+[01-Oct-2016 09:53:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:64) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: txtFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 64
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: txtPhone in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 65
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Use of undefined constant price - assumed 'price' in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 74
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: txtComments in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 76
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: txtFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 101
+[01-Oct-2016 21:47:42 America/Chicago] PHP Notice:  Undefined variable: txtFullName in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 102
+[01-Oct-2016 21:47:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:64) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[01-Oct-2016 21:51:30 America/Chicago] PHP Notice:  Undefined variable: txtPhone in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 65
+[01-Oct-2016 21:51:30 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 21:51:30 America/Chicago] PHP Notice:  Use of undefined constant price - assumed 'price' in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 74
+[01-Oct-2016 21:51:30 America/Chicago] PHP Notice:  Undefined variable: txtComments in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 76
+[01-Oct-2016 21:51:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:65) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[01-Oct-2016 21:55:39 America/Chicago] PHP Notice:  Undefined variable: txtPhone in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 65
+[01-Oct-2016 21:55:39 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 21:55:39 America/Chicago] PHP Notice:  Use of undefined constant price - assumed 'price' in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 74
+[01-Oct-2016 21:55:39 America/Chicago] PHP Notice:  Undefined variable: txtComments in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 76
+[01-Oct-2016 21:55:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:65) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[01-Oct-2016 21:58:58 America/Chicago] PHP Notice:  Undefined variable: txtPhone in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 65
+[01-Oct-2016 21:58:58 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 21:58:58 America/Chicago] PHP Notice:  Undefined variable: txtComments in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 76
+[01-Oct-2016 21:58:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:65) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[01-Oct-2016 22:10:38 America/Chicago] PHP Notice:  Undefined variable: chkGiftReceipt in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 73
+[01-Oct-2016 22:10:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:73) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 116
+[02-Oct-2016 14:58:47 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[02-Oct-2016 14:58:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 22
+[02-Oct-2016 21:26:43 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[02-Oct-2016 21:26:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 22
+[02-Oct-2016 21:48:22 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[02-Oct-2016 21:48:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 22
+[02-Oct-2016 21:50:05 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[02-Oct-2016 21:50:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 21
+[02-Oct-2016 21:56:49 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[02-Oct-2016 21:56:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 21
+[03-Oct-2016 08:58:09 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[03-Oct-2016 08:58:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 21
+[03-Oct-2016 09:15:11 America/Chicago] PHP Notice:  Undefined index: g-recaptcha-response in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 14
+[03-Oct-2016 09:15:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:14) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 21
+[03-Oct-2016 09:19:18 America/Chicago] PHP Notice:  Undefined index: radSize in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 79
+[03-Oct-2016 09:19:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/plotzjon/public_html/mmdt1146lab5/mail.php:79) in /home/plotzjon/public_html/mmdt1146lab5/mail.php on line 128

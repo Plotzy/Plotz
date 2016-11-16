@@ -1,0 +1,18 @@
+[24-Sep-2016 23:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 45
+[25-Sep-2016 13:46:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 106
+[25-Sep-2016 13:57:54 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 13:59:45 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 13:59:45 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, boolean given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 106
+[25-Sep-2016 14:23:17 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 103
+[25-Sep-2016 14:24:37 America/Chicago] PHP Fatal error:  Call to undefined function the quick brown fox jumps over the lazy dog() in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 103
+[25-Sep-2016 14:27:58 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 103
+[25-Sep-2016 14:31:32 America/Chicago] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 14:32:13 America/Chicago] PHP Warning:  array_count_values() expects exactly 1 parameter, 2 given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 104
+[25-Sep-2016 14:32:13 America/Chicago] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 14:38:10 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 14:43:05 America/Chicago] PHP Warning:  array_count_values() expects parameter 1 to be array, string given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 105
+[25-Sep-2016 14:45:30 America/Chicago] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 104
+[25-Sep-2016 14:47:25 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 106
+[26-Sep-2016 09:29:55 America/Chicago] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/plotzjon/public_html/mmdt1146lab4/footer.inc.php on line 12
+[26-Sep-2016 09:46:11 America/Chicago] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/plotzjon/public_html/mmdt1146lab4/footer.inc.php on line 12
+[29-Sep-2016 20:28:28 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/plotzjon/public_html/mmdt1146lab4/lab4results.php on line 78
