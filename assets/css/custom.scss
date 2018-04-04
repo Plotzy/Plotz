@@ -1,0 +1,81 @@
+/*Media Queries*/
+// In Progress 3/29/18
+.banner-wrap {
+
+    /*Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575px) {
+        font-size:30px !important;
+        color:red !important;
+    }
+
+    /* Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size:25px !important;
+    }
+
+    /* Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size:20px !important;
+    }
+
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) and (max-width: 1199px) {
+        font-size:15px !important;
+    }
+
+    /*Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        font-size:12px !important;
+    }
+
+}
+
+/*Image Overlay */
+//***********HOME PAGE*********//
+
+.ovl{
+    opacity: 0;
+    transition:2s;
+}
+
+.ovl:hover{
+    opacity: 1;
+    background: rgb(0,0,0,.65);
+}
+
+/* Link Colors */
+.custom-link:hover{
+    color:gray;
+}
+
+/* Forcing specific image size  */
+.force-image{
+    height: 250px !important;
+    width:300px !important;
+}
+
+/* Change coloring for Example button */
+.change-readme-buttons-color{
+    color:#fff !important;
+    background-color:#0069d9 !important;
+    border-color:#0062cc !important;
+}
+ /*hover of coloring for Example Button */
+.change-readme-buttons-color:hover{
+    color:#fff !important;
+    background-color:#0d4d92 !important;
+    border-color:#0062cc !important;
+}
+
+/* Coloring body of the card */
+.card{
+    background-color:#343a40 !important;
+}
+// Mixin for Button & Transition
+.readmore-text-agcentric{
+}
+
+/*Test Section */
+
+
+//*******END OF HOME PAGE*********//
