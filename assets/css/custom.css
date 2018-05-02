@@ -1,72 +1,317 @@
-/*
-Error: wrong number of arguments (4 for 3) for `rgb'
-        on line 43 of custom.scss
+/*Media Queries yup*/
+.banner-wrap {
+  /* Extra small devices (portrait phones, less than 576px)*/
+  /* Small devices (landscape phones, 576px and up) */
+  /* Medium devices (tablets, 768px and up)*/
+  /* Large devices (desktops, 992px and up)*/
+  /*Extra large devices (large desktops, 1200px and up)*/ }
+  @media (max-width: 575px) {
+    .banner-wrap {
+      font-size: 1rem !important;
+      color: red !important; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .banner-wrap {
+      font-size: 1.5rem !important;
+      color: yellow; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner-wrap {
+      font-size: 2rem !important;
+      color: green; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .banner-wrap {
+      font-size: 2.5rem !important; } }
+  @media (min-width: 1200px) {
+    .banner-wrap {
+      font-size: 3rem !important; } }
 
-38:     transition:2s;
-39: }
-40: 
-41: .ovl:hover{
-42:     opacity: 1;
-43:     background: rgb(0,0,0,.65);
-44: }
-45: 
-46: /* Link Colors *\/
-47: .custom-link:hover{
-48:     color:gray;
+/*Image Overlay */
+.effect1 {
+  opacity: 0; }
 
-Backtrace:
-custom.scss:43
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/funcall.rb:131:in `_perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/bin/scss:13:in `<top (required)>'
-C:/Ruby25-x64/bin/scss:23:in `load'
-C:/Ruby25-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: wrong number of arguments (4 for 3) for `rgb'\A         on line 43 of custom.scss\A \A 38:     transition:2s;\A 39: }\A 40: \A 41: .ovl:hover{\A 42:     opacity: 1;\A 43:     background: rgb(0,0,0,.65);\A 44: }\A 45: \A 46: /* Link Colors */\A 47: .custom-link:hover{\A 48:     color:gray;"; }
+/*rgb(0,0,0,0.65);#00000095 color that I need*/
+.effect1:hover {
+  opacity: 1;
+  transition: 2.5s;
+  background: #00000095;
+  display: inline-block; }
+
+/* Link Colors */
+.custom-link a:hover {
+  color: gray; }
+
+/*------------------------------------- Fix This Feature 6/30/18 ---------------------------------------------
+  /*.custom-link a:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+                    to right,
+                    rgba(255, 255, 255, 0.13) 0%,
+                    rgba(255, 255, 255, 0.13) 77%,
+                    rgba(255, 255, 255, 0.5) 92%,
+                    rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+
+  /* Hover state - trigger effect */
+  /*.custom-link a:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+
+  /* Active state */
+  /*.icon:active:after {
+    opacity: 0;
+  }
+
+
+
+/* Forcing specific image size  */
+.force-image {
+  height: 250px !important;
+  width: 300px !important; }
+
+/* Change coloring for Example button */
+.change-readme-buttons-color {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important; }
+
+/*hover of coloring for Example Button */
+.change-readme-buttons-color:hover {
+  color: #fff !important;
+  background-color: #0d4d92 !important;
+  border-color: #0062cc !important; }
+
+/* Coloring body of the card */
+.card {
+  background-color: #343a40 !important; }
+
+.cool {
+  color: red; }
+
+/* Start Shine For Links - Home Page */
+/* End Shine For Links - Home Page */
+/*Test Section */
+#box {
+  height: 200px;
+  width: 200px;
+  background: #fc3;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 200px; }
+
+.thing {
+  height: 200px;
+  width: 200px;
+  background: #ac3;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border-top-left-radius: 200px; }
+
+button {
+  background: #933;
+  color: white;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px 0; }
+
+body#selectors {
+  text-align: left; }
+
+body#events {
+  width: 500px;
+  margin: 0 auto; }
+
+form input {
+  display: inline-block;
+  margin: 10px 0; }
+
+/* -------------------
+   CAR RACR 2.0
+   ------------------- */
+#racetrack {
+  background: url("../img/road.jpg") center left repeat-x;
+  height: 330px;
+  border-right: dashed 10px white;
+  box-sizing: border-box;
+  margin: 40px 0; }
+
+.car {
+  display: block;
+  position: relative; }
+
+#car1 {
+  top: 30px; }
+
+#car2 {
+  top: 100px; }
+
+#raceInfoContainer {
+  width: 80%;
+  margin: 40px auto 0;
+  background: #333;
+  height: 200px; }
+
+#raceInfoContainer h2 {
+  color: white;
+  text-transform: uppercase;
+  border-bottom: solid 1px white;
+  padding: 20px 0; }
+
+.raceInfo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  float: left; }
+
+.raceInfo span {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  color: white; }
+
+#raceInfo1 {
+  color: #77b82f; }
+
+#raceInfo2 {
+  color: #b82f3e; }
+
+input[type="button"] {
+  background: #77b72f;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px #444; }
+
+input#reset {
+  background: #fc3;
+  color: #444; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* --------------------------
+   STYLES FOR jQUERY CHAINING
+   -------------------------- */
+.notification-bar {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px; }
+
+.notification-bar a {
+  color: #fc3; }
+
+/* -------------------------------
+   HIDING & SHOWING jQUERY LECTURE
+   ------------------------------- */
+.hidden {
+  display: none; }
+
+#box1 {
+  height: 100px;
+  width: 100px;
+  background: #fc3;
+  color: white;
+  border: solid 4px #333;
+  margin: 0 auto; }
+
+/* -------------------------------
+   jQUERY ANIMATE LECTURE
+   ------------------------------- */
+#navArrows {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 100px auto 0;
+  background: #333;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  padding: 20px; }
+
+.navigationArrow {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  color: #222; }
+
+#up {
+  left: 50%;
+  margin-left: -25px; }
+
+#left, #right {
+  top: 50%;
+  margin-top: -25px; }
+
+#right {
+  right: 20px;
+  left: inherit; }
+
+#down {
+  bottom: 20px;
+  top: inherit;
+  left: 50%;
+  margin-left: -25px; }
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #a7f;
+  color: white;
+  border: solid 4px #a1f;
+  line-height: 100px;
+  margin: 100px auto 0;
+  opacity: 0.5;
+  /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+  position: relative; }
+
+/* -------------------------------
+   jQUERY CSS LECTURE
+   ------------------------------- */
+#circle1 {
+  display: inline-block;
+  background: #8a8d22;
+  color: white;
+  text-align: center;
+  line-height: 140px;
+  height: 140px;
+  width: 140px;
+  margin: 40px; }
+
+.circleShape {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%; }
+
+/*End of Test Section */
+
+/*# sourceMappingURL=custom.css.map */

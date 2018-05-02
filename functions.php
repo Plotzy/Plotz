@@ -420,8 +420,9 @@ function twentyseventeen_scripts() {
 	// Load the dark colorscheme.
 	if ( 'dark' === get_theme_mod( 'colorscheme', 'light' ) || is_customize_preview() ) {
 		wp_enqueue_style( 'twentyseventeen-colors-dark', get_theme_file_uri( '/assets/css/colors-dark.css' ), array( 'twentyseventeen-style' ), '1.0' );
-		wp_enqueue_style( 'twentyseventeen-custom', get_theme_file_uri( '/assets/css/custom.scss' ), array( 'twentyseventeen-style' ), '1.0' );
+		wp_enqueue_style( 'twentyseventeen-custom', get_theme_file_uri( '/assets/css/custom.css' ), array( 'twentyseventeen-style' ), '1.1' );
 	}
+
 
 	// Load the Internet Explorer 9 specific stylesheet, to fix display issues in the Customizer.
 	if ( is_customize_preview() ) {
@@ -451,6 +452,8 @@ function twentyseventeen_scripts() {
 	}
 
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
+
+	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/custom.js' ), array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
 
@@ -604,9 +607,17 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
    // add_image_size( 'custom-image',300, 275, true);
 //}
 
+//It's loading into the source code and inspect node but still has a 403 error! 2nd try works
+//------------------------------------------------------------------------------
+function my_custom_javascript(){ // puts the script into a function
+    // Doesn't work for some reason research later.
+	//wp_enqueue_script('my_custom_javascript', plugin_dir_url(__FILE__) . 'assets/js/custom.js', array('jquery'),'1.0.0', false); // Loads the script (
+    //Works
+	wp_enqueue_script('my_custom_javascript', get_stylesheet_directory_uri() . '/assets/js/custom.js', array('jquery'), null,'1.0.0', false); // Loads the script
+}
+add_action('wp_enqueue_scripts', 'my_custom_javascript'); // calls the function where the script is located
+
 //add_action('after_setup_theme', 'imageSetup');
-
-
 
 /* Add bootstrap support to the Wordpress theme*/
 
@@ -620,8 +631,6 @@ function theme_add_bootstrap() {
 
 
 
-//wp_enqueue_style( 'twentyseventeen_bootstrap-style', get_theme_file_uri( '/bootstrap/css/bootstrap.min.css' ), true, '4.0.0-alpha.6' );
-//wp_enqueue_style( 'theme-style', get_theme_file_uri( '/bootstrap/css/grid.min.css' ), array( 'bootstrap-style' ), '1.0.0' );
-//wp_enqueue_style( 'custom-style', get_theme_file_uri( '/bootstrap/css/reboot.min.css' ), array( 'theme-style' ), false );
-//wp_enqueue_style('twentyseventeen_scripts_style', get_stylesheet_uri());
+
+
 
